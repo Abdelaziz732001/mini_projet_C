@@ -456,17 +456,21 @@ int main(){
     q=NULL;
     struct node1 *q1;
     q1=NULL;
-    printf("\t\t\t<< BIENVENUE ET BON TRAVAIL >>\n");
+    printf("\n\n\t\t ************************************************************");
+		printf("\n\t\t                         Bienvenue                  ");
+        
+		printf("\n\t\t ************************************************************ \n");
+        printf("\n");
     
     menu();
     while(e==1){
     int n;
      
-    
-    printf("Donner votre choix\n");
+    printf("\n");
+    printf("  Donner votre choix :\n");
     scanf("%d",&n);
     while((n<1)||(n>8)){
-        printf("Donner votre choix\n");
+        printf("  Donner votre choix :\n");
         scanf("%d",&n);
     }
     
